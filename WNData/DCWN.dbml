@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="dbWINNotch" Class="DCWNDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ISRHAEL-PC\SQLEXPRESS;Initial Catalog=dbWINNotch;Integrated Security=True" SettingsObjectName="WNData.Properties.Settings" SettingsPropertyName="dbWINNotchConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.WNConfig" Member="WNConfigs">
+    <Type Name="WNConfig">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DisplayText" Type="System.String" DbType="VarChar(99)" CanBeNull="true" />
+      <Column Name="BackGroundColor" Type="System.String" DbType="VarChar(99)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
